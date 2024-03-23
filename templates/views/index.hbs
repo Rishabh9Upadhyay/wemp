@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="images/png" href="./img/favicon.webp">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body style="background-color: rgb(190 165 174 / 56%);">
+    <div class="main_div">
+        <!-- nav bar -->
+        <div class="nav_bar">
+            <div class="logo">
+                <a href="/">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="items">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/seecontest">Contents</a></li>
+                    <li><a href="/update">Updates</a></li>
+                    <li><a href="/seeblogs">blogs</a></li>
+                    <li><a href="/Community">Community</a></li>
+                    <li><a href="/contact">Contacts</a></li>
+                    <li><a href="/About">About</a></li>
+                    {{#if user}}
+                    <li>
+                        <div class="profile">
+                            <img src='./uploads/{{pimg}}' alt="user_img">
+                        </div>
+                        <ul>
+                            <a href="/profile"><li>profile</li></a>
+                            <a href="/logout"><li>sign out</li></a>
+                        </ul>
+                    </li>
+                    {{else}}
+                    <li><a href="/signin">Signin</a></li>
+                    <li><a href="/signup">Signup</a></li>
+                    {{/if}}
+
+
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- body starts from here -->
+
+        <!-- hero bg section -->
+        <div class="bg_div"
+            style="background:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,.6)),url('./img/herobg.jpg');">
+            <div class="hero_head">
+                <h1><span>W</span>omen Rising</h1>
+                <h3>Your voice matters. Speak up, stand tall, and let your words inspire change. You have the power to
+                    make a difference.</h3>
+            </div>
+            <div class="hero_btn">
+                <a href="/seecontest1">
+                    <button>Contribute</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- our inspiration -->
+        <div class="inspiration">
+            <div class="grid_head">
+                <h2><u>our inspiration & Stories</u></h2>
+            </div>
+            <div class="tag_line">
+                <h3>Helping women never doubt that they are Valuable & Powerful...</h3>
+            </div>
+            <div class="grid_img">
+                <div class="card">
+                    <img src="./img/s1.webp" alt="">
+                    <div class="text_field">
+                        <p>Meet Sunita Founder of lakshmi</p>
+                        <span>Discover her inspiring journey from village woman to entrepreneur. Dive into her story of resilience, determination, and explore her unique services.</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/s2.webp" alt="">
+                    <div class="text_field">
+                        <p>Bridging Healthcare Gaps in Rural Communities</p>
+                        <span>Empowering Villages: Witness the Journey of a Village Woman's Dream Hospital. Join us in celebrating her determination as she brings quality healthcare to her community. Support her noble endeavor today</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/s3.jpg" alt="">
+                    <div class="text_field">
+                        <p>Afghani Women Empowering Minds</p>
+                        <span>Join Fatima in Her Educational Journey. Witness the transformative impact as she educates and enlightens communities. Support her mission for a brighter future today</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/s4.jpg" alt="">
+                    <div class="text_field">
+                        <p>From Mom to Medalist</p>
+                        <span>Celebrate Pratigya's Triumph in Sports! Witness the inspiring journey of a village woman's win against all odds. Join us in honoring her achievement and supporting her athletic journey.</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/s5.jpg" alt="">
+                    <div class="text_field">
+                        <p>Unveiling Tribal Voices</p>
+                        <span>Empowering Women to Speak Out. Witness the strength and courage of a tribal woman as she shares her voice with the world. Join us in amplifying her message of resilience and empowerment.</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/s6.jpg" alt="">
+                    <div class="text_field">
+                        <p>Dominating the Football Field Together</p>
+                        <span>A group of women, united in talent and passion, is reshaping football. With remarkable teamwork, they challenge norms, proving gender isn't a barrier to success on the field. Waves are made.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- community forum -->
+        <div class="comm_form">
+            <div class="box">
+                <div class="s_box">
+                    <p>Ready to make your voice heard? Share your thoughts, experiences, and ideas on women empowerment
+                        in our dedicated post section. Your story has the power to inspire and uplift others.</p>
+                </div>
+                <div class="s_box">
+                    <img src="./img/dud.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- ----------------- -->
+
+        <!-- blog -->
+        <!-- <div class="blogs"></div> -->
+
+
+
+
+        <!-- footer -->
+        <div class="footer" style="margin-top: 1px;">
+            <div class="card">
+                <div class="what">
+                    <div class="heading_foot">
+                        <h2>what we do !!!</h2>
+                    </div>
+                    <div class="all_cont">
+                        <div class="call common">
+                            <ul>
+                                <li>Advancing women’s human rights</li>
+                                <li>Healthcare, rehabilitation & awareness</li>
+                                <li>Building feminist leadership</li>
+                                <li>Expanding reproductive freedoms</li>
+                                <li>Education programmes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="address">
+                    <div class="heading_foot">
+                        <h2>About us</h2>
+                    </div>
+                    <div class="all_cont">
+                        <div class="common">
+                            <span>We are dedicated to empowering women from all walks of life, providing them with the
+                                tools, resources, and support needed to thrive. Our mission is to foster a supportive
+                                environment where women can grow personally and professionally.</span>
+                        </div>
+                        <div class="common">
+                            <div class="input_div">
+                                <input type="text" name="" id="" placeholder="email">
+                                <button>subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contact">
+                    <div class="heading_foot">
+                        <h2>contact us</h2>
+                    </div>
+                    <div class="all_cont">
+                        <div class="call common">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>731925647</span>
+                        </div>
+                        <div class="email common">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>xyz@gmail.com</span>
+                        </div>
+                        <div class="common social">
+                            <a href="">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
