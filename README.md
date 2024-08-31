@@ -15,13 +15,13 @@
 https://docs.google.com/presentation/d/1OfstLxZ1Ly_lwc2_y2PqT9w4QoxyCK8g/edit?usp=sharing&ouid=104860668751385055910&rtpof=true&sd=true
 
 # used technologies
-HTML/CSS, 
-JavaScript template engine handlebars,
-JavaScript,
-Bootstrap,
-NodeJs, 
-ExpressJs,
-Mongoose
++ HTML/CSS, 
++ JavaScript template engine handlebars,
++ JavaScript,
++ Bootstrap,
++ NodeJs, 
++ ExpressJs,
++ Mongoose
 
 
 
