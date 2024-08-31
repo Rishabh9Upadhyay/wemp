@@ -1,5 +1,5 @@
 # # Women Empowerment
-# A Platform where a women come and take guidance and learn everythings what make her empower 
+# A platform where women can seek guidance, gain knowledge, and learn everything they need to empower themselves.
 
 
 # # Key Features
@@ -30,5 +30,5 @@ To use this application you first need to install nodejs in your system them Ini
 directory. Then need to install all required dependency such as mongoose, hbs, express, express-session, dotenv by this commond (npm i package_name).
 then you can run this by runing main file which is src/index.js.
 
-#Alert2
+# Must 
 Before starting make a .env file in root in which make a variable named SECRET_KEY and initilise a string with atlease 32 charectors by assigning to this variable.
