@@ -31,4 +31,4 @@ directory. Then need to install all required dependency such as mongoose, hbs, e
 then you can run this by runing main file which is src/index.js.
 
 # Must 
-Before starting make a .env file in root in which make a variable named SECRET_KEY and initilise a string with atlease 32 charectors by assigning to this variable.
+Before getting started, create a '.env' file in the root directory. Within this file, define a variable named SECRET_KEY and assign it a string that is at least 32 characters long. This string will serve as the value for the SECRET_KEY variable.
