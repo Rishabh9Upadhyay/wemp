@@ -3,13 +3,13 @@
 
 
 # # Key Features
-~ Providing Learning
-~ Providing Supports
-Community Forume to raise a voices
-Blog writting
-Contest Creating
-News Updating
-Feedback Section
++ Providing Learning
++ Providing Supports
++ Community Forume to raise a voices
++ Blog writting
++ Contest Creating
++ News Updating
++ Feedback Section
 
 # PPT Link 
 https://docs.google.com/presentation/d/1OfstLxZ1Ly_lwc2_y2PqT9w4QoxyCK8g/edit?usp=sharing&ouid=104860668751385055910&rtpof=true&sd=true
