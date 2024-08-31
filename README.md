@@ -1,5 +1,5 @@
 # # Women Empowerment
-# A platform where women can seek guidance, gain knowledge, and learn everything they need to empower themselves.
+A platform where women can seek guidance, gain knowledge, and learn everything they need to empower themselves.
 
 
 # # Key Features
